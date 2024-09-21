@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Personal\\UnityTraining\\Create With Code\\Prototype 1\\Protoype 1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\personal\\unitytraining\\create with code\\prototype 1\\protoype 1\\assets\\scripts\\player1\\cameraswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\player1\\cameraswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5527A522-BB22-34EF-49DC-12C167BF5382}|Assembly-CSharp.csproj|C:\\Personal\\UnityTraining\\Create With Code\\Prototype 1\\Protoype 1\\assets\\scripts\\player2\\player2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5527A522-BB22-34EF-49DC-12C167BF5382}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player2\\player2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -51,31 +47,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CameraSwitch.cs",
-              "DocumentMoniker": "C:\\Personal\\UnityTraining\\Create With Code\\Prototype 1\\Protoype 1\\Assets\\Scripts\\Player1\\CameraSwitch.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player1\\CameraSwitch.cs",
-              "ToolTip": "C:\\Personal\\UnityTraining\\Create With Code\\Prototype 1\\Protoype 1\\Assets\\Scripts\\Player1\\CameraSwitch.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player1\\CameraSwitch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T03:51:42.741Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Player2Controller.cs",
               "DocumentMoniker": "C:\\Personal\\UnityTraining\\Create With Code\\Prototype 1\\Protoype 1\\Assets\\Scripts\\Player2\\Player2Controller.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player2\\Player2Controller.cs",
               "ToolTip": "C:\\Personal\\UnityTraining\\Create With Code\\Prototype 1\\Protoype 1\\Assets\\Scripts\\Player2\\Player2Controller.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player2\\Player2Controller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T03:50:09.091Z"
+              "WhenOpened": "2024-09-20T03:50:09.091Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Personal\\UnityTraining\\Create With Code\\Prototype 1\\Protoype 1\\Assets\\Scripts\\Player1\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player1\\PlayerController.cs",
@@ -87,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "FollowPlayerInside.cs",
               "DocumentMoniker": "C:\\Personal\\UnityTraining\\Create With Code\\Prototype 1\\Protoype 1\\Assets\\Scripts\\Player1\\FollowPlayerInside.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player1\\FollowPlayerInside.cs",
@@ -99,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "FolowPlayer2Inside.cs",
               "DocumentMoniker": "C:\\Personal\\UnityTraining\\Create With Code\\Prototype 1\\Protoype 1\\Assets\\Scripts\\Player2\\FolowPlayer2Inside.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player2\\FolowPlayer2Inside.cs",
@@ -111,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "FollowPlayer2.cs",
               "DocumentMoniker": "C:\\Personal\\UnityTraining\\Create With Code\\Prototype 1\\Protoype 1\\Assets\\Scripts\\Player2\\FollowPlayer2.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player2\\FollowPlayer2.cs",
@@ -123,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "FollowPlayer.cs",
               "DocumentMoniker": "C:\\Personal\\UnityTraining\\Create With Code\\Prototype 1\\Protoype 1\\Assets\\Scripts\\Player1\\FollowPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player1\\FollowPlayer.cs",
@@ -135,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "ObstacleCarMovement.cs",
               "DocumentMoniker": "C:\\Personal\\UnityTraining\\Create With Code\\Prototype 1\\Protoype 1\\Assets\\Scripts\\ObstacleCarMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ObstacleCarMovement.cs",
@@ -147,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "SpawnObstacleCars.cs",
               "DocumentMoniker": "C:\\Personal\\UnityTraining\\Create With Code\\Prototype 1\\Protoype 1\\Assets\\Scripts\\SpawnObstacleCars.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnObstacleCars.cs",
