@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Personal\\UnityTraining\\Create With Code\\Unit 2\\Protoype 2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5F5EC116-7418-5DAB-CF63-E127AAFBCDE4}|Assembly-CSharp.csproj|C:\\Personal\\UnityTraining\\Create With Code\\Unit 2\\Protoype 2\\assets\\scripts\\detectcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F5EC116-7418-5DAB-CF63-E127AAFBCDE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\detectcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F5EC116-7418-5DAB-CF63-E127AAFBCDE4}|Assembly-CSharp.csproj|c:\\personal\\unitytraining\\create with code\\unit 2\\protoype 2\\assets\\scripts\\animalhunger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F5EC116-7418-5DAB-CF63-E127AAFBCDE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animalhunger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F5EC116-7418-5DAB-CF63-E127AAFBCDE4}|Assembly-CSharp.csproj|C:\\Personal\\UnityTraining\\Create With Code\\Unit 2\\Protoype 2\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F5EC116-7418-5DAB-CF63-E127AAFBCDE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F5EC116-7418-5DAB-CF63-E127AAFBCDE4}|Assembly-CSharp.csproj|C:\\Personal\\UnityTraining\\Create With Code\\Unit 2\\Protoype 2\\assets\\challenge 2\\scripts\\playercontrollerx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F5EC116-7418-5DAB-CF63-E127AAFBCDE4}|Assembly-CSharp.csproj|solutionrelative:assets\\challenge 2\\scripts\\playercontrollerx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F5EC116-7418-5DAB-CF63-E127AAFBCDE4}|Assembly-CSharp.csproj|C:\\Personal\\UnityTraining\\Create With Code\\Unit 2\\Protoype 2\\assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F5EC116-7418-5DAB-CF63-E127AAFBCDE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F5EC116-7418-5DAB-CF63-E127AAFBCDE4}|Assembly-CSharp.csproj|C:\\Personal\\UnityTraining\\Create With Code\\Unit 2\\Protoype 2\\assets\\scripts\\destroyoutofbounds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F5EC116-7418-5DAB-CF63-E127AAFBCDE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\destroyoutofbounds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F5EC116-7418-5DAB-CF63-E127AAFBCDE4}|Assembly-CSharp.csproj|C:\\Personal\\UnityTraining\\Create With Code\\Unit 2\\Protoype 2\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F5EC116-7418-5DAB-CF63-E127AAFBCDE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F5EC116-7418-5DAB-CF63-E127AAFBCDE4}|Assembly-CSharp.csproj|C:\\Personal\\UnityTraining\\Create With Code\\Unit 2\\Protoype 2\\assets\\scripts\\moveforward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F5EC116-7418-5DAB-CF63-E127AAFBCDE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\moveforward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AnimalHunger.cs",
+              "DocumentMoniker": "C:\\Personal\\UnityTraining\\Create With Code\\Unit 2\\Protoype 2\\Assets\\Scripts\\AnimalHunger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AnimalHunger.cs",
+              "ToolTip": "C:\\Personal\\UnityTraining\\Create With Code\\Unit 2\\Protoype 2\\Assets\\Scripts\\AnimalHunger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AnimalHunger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T01:24:52.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Personal\\UnityTraining\\Create With Code\\Unit 2\\Protoype 2\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Personal\\UnityTraining\\Create With Code\\Unit 2\\Protoype 2\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T00:44:01.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerControllerX.cs",
+              "DocumentMoniker": "C:\\Personal\\UnityTraining\\Create With Code\\Unit 2\\Protoype 2\\Assets\\Challenge 2\\Scripts\\PlayerControllerX.cs",
+              "RelativeDocumentMoniker": "Assets\\Challenge 2\\Scripts\\PlayerControllerX.cs",
+              "ToolTip": "C:\\Personal\\UnityTraining\\Create With Code\\Unit 2\\Protoype 2\\Assets\\Challenge 2\\Scripts\\PlayerControllerX.cs",
+              "RelativeToolTip": "Assets\\Challenge 2\\Scripts\\PlayerControllerX.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T23:31:39.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DetectCollision.cs",
+              "DocumentMoniker": "C:\\Personal\\UnityTraining\\Create With Code\\Unit 2\\Protoype 2\\Assets\\Scripts\\DetectCollision.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DetectCollision.cs",
+              "ToolTip": "C:\\Personal\\UnityTraining\\Create With Code\\Unit 2\\Protoype 2\\Assets\\Scripts\\DetectCollision.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DetectCollision.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T22:23:15.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SpawnManager.cs",
+              "DocumentMoniker": "C:\\Personal\\UnityTraining\\Create With Code\\Unit 2\\Protoype 2\\Assets\\Scripts\\SpawnManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnManager.cs",
+              "ToolTip": "C:\\Personal\\UnityTraining\\Create With Code\\Unit 2\\Protoype 2\\Assets\\Scripts\\SpawnManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpawnManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T18:27:35.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DestroyOutOfBounds.cs",
+              "DocumentMoniker": "C:\\Personal\\UnityTraining\\Create With Code\\Unit 2\\Protoype 2\\Assets\\Scripts\\DestroyOutOfBounds.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DestroyOutOfBounds.cs",
+              "ToolTip": "C:\\Personal\\UnityTraining\\Create With Code\\Unit 2\\Protoype 2\\Assets\\Scripts\\DestroyOutOfBounds.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DestroyOutOfBounds.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T17:27:05.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Personal\\UnityTraining\\Create With Code\\Unit 2\\Protoype 2\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Personal\\UnityTraining\\Create With Code\\Unit 2\\Protoype 2\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T05:41:53.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MoveForward.cs",
+              "DocumentMoniker": "C:\\Personal\\UnityTraining\\Create With Code\\Unit 2\\Protoype 2\\Assets\\Scripts\\MoveForward.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MoveForward.cs",
+              "ToolTip": "C:\\Personal\\UnityTraining\\Create With Code\\Unit 2\\Protoype 2\\Assets\\Scripts\\MoveForward.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MoveForward.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T16:59:08.561Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
