@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Personal\\UnityTraining\\Create With Code\\Prototype 1\\Protoype 1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5527A522-BB22-34EF-49DC-12C167BF5382}|Assembly-CSharp.csproj|C:\\Personal\\UnityTraining\\Create With Code\\Prototype 1\\Protoype 1\\assets\\scripts\\player2\\player2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5527A522-BB22-34EF-49DC-12C167BF5382}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player2\\player2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5527A522-BB22-34EF-49DC-12C167BF5382}|Assembly-CSharp.csproj|C:\\Personal\\UnityTraining\\Create With Code\\Prototype 1\\Protoype 1\\assets\\scripts\\player1\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5527A522-BB22-34EF-49DC-12C167BF5382}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player1\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5527A522-BB22-34EF-49DC-12C167BF5382}|Assembly-CSharp.csproj|C:\\Personal\\UnityTraining\\Create With Code\\Prototype 1\\Protoype 1\\assets\\scripts\\player1\\followplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5527A522-BB22-34EF-49DC-12C167BF5382}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player1\\followplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5527A522-BB22-34EF-49DC-12C167BF5382}|Assembly-CSharp.csproj|c:\\personal\\unitytraining\\create with code\\prototype 1\\protoype 1\\assets\\scripts\\player2\\player2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5527A522-BB22-34EF-49DC-12C167BF5382}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player2\\player2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5527A522-BB22-34EF-49DC-12C167BF5382}|Assembly-CSharp.csproj|C:\\Personal\\UnityTraining\\Create With Code\\Prototype 1\\Protoype 1\\assets\\scripts\\player2\\folowplayer2inside.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5527A522-BB22-34EF-49DC-12C167BF5382}|Assembly-CSharp.csproj|C:\\Personal\\UnityTraining\\Create With Code\\Prototype 1\\Protoype 1\\assets\\scripts\\player2\\followplayer2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5527A522-BB22-34EF-49DC-12C167BF5382}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player2\\followplayer2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5527A522-BB22-34EF-49DC-12C167BF5382}|Assembly-CSharp.csproj|C:\\Personal\\UnityTraining\\Create With Code\\Prototype 1\\Protoype 1\\assets\\scripts\\player1\\followplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5527A522-BB22-34EF-49DC-12C167BF5382}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player1\\followplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5527A522-BB22-34EF-49DC-12C167BF5382}|Assembly-CSharp.csproj|C:\\Personal\\UnityTraining\\Create With Code\\Prototype 1\\Protoype 1\\assets\\scripts\\spawnobstaclecars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,11 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Player2Controller.cs",
               "DocumentMoniker": "C:\\Personal\\UnityTraining\\Create With Code\\Prototype 1\\Protoype 1\\Assets\\Scripts\\Player2\\Player2Controller.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player2\\Player2Controller.cs",
@@ -59,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Personal\\UnityTraining\\Create With Code\\Prototype 1\\Protoype 1\\Assets\\Scripts\\Player1\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player1\\PlayerController.cs",
@@ -67,11 +67,12 @@
               "RelativeToolTip": "Assets\\Scripts\\Player1\\PlayerController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T03:49:08.772Z"
+              "WhenOpened": "2024-09-20T03:49:08.772Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "FollowPlayerInside.cs",
               "DocumentMoniker": "C:\\Personal\\UnityTraining\\Create With Code\\Prototype 1\\Protoype 1\\Assets\\Scripts\\Player1\\FollowPlayerInside.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player1\\FollowPlayerInside.cs",
@@ -83,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FolowPlayer2Inside.cs",
               "DocumentMoniker": "C:\\Personal\\UnityTraining\\Create With Code\\Prototype 1\\Protoype 1\\Assets\\Scripts\\Player2\\FolowPlayer2Inside.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player2\\FolowPlayer2Inside.cs",
@@ -95,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "FollowPlayer2.cs",
               "DocumentMoniker": "C:\\Personal\\UnityTraining\\Create With Code\\Prototype 1\\Protoype 1\\Assets\\Scripts\\Player2\\FollowPlayer2.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player2\\FollowPlayer2.cs",
@@ -107,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "FollowPlayer.cs",
               "DocumentMoniker": "C:\\Personal\\UnityTraining\\Create With Code\\Prototype 1\\Protoype 1\\Assets\\Scripts\\Player1\\FollowPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player1\\FollowPlayer.cs",
@@ -115,7 +116,8 @@
               "RelativeToolTip": "Assets\\Scripts\\Player1\\FollowPlayer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T03:43:43.295Z"
+              "WhenOpened": "2024-09-20T03:43:43.295Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
