@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Obstacle
+  - Live
+  - Meteorite
   layers:
   - Default
   - TransparentFX

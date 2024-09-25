@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private float speed = 1;
+    private float speed = 5;
     private float jumpForce = 5; // Force applied for jumping
     private bool isGroudned = true; // Check if the player is on the ground
     private Rigidbody playerRb;
@@ -33,7 +33,9 @@ public class PlayerController : MonoBehaviour
     {
         // Horizontal movement
         float horizontalInput = Input.GetAxis("Horizontal");
-        playerRb.AddForce(Vector3.right * speed * horizontalInput);
+
+        playerRb.velocity = new Vector3(horizontalInput * speed, playerRb.velocity.y, playerRb.velocity.z);
+
     }
 
     void Jump()
@@ -43,6 +45,20 @@ public class PlayerController : MonoBehaviour
         Debug.Log("jumping");
     }
 
+    // Trigger detection for obstacles
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.CompareTag("Obstacle"))
+        {
+            Debug.Log("Player hit an obstacle!");
+        }
+        if(other.gameObject.CompareTag("Live"))
+        {
+            Debug.Log("Player picked up a live!");
+            Destroy(other.gameObject);
+        }
+    }
+
     // Detect collisions for the player
     private void OnCollisionEnter(Collision collision)
     {
@@ -50,6 +66,13 @@ public class PlayerController : MonoBehaviour
         if(collision.gameObject.CompareTag("Ground"))
         {
             isGroudned = true; 
+        }
+
+        //Check if its a collission with a mateorite
+        if(collision.gameObject.CompareTag("Meteorite"))
+        {
+            Debug.Log("Player hit by a meteorite!!");
+            Destroy(collision.gameObject);
         }
     }
 }
