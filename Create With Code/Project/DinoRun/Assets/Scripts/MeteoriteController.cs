@@ -9,6 +9,7 @@ public class MeteoriteController : MonoBehaviour
     private Vector3 targetPosition;
     public GameObject player;
     public float yOffset = 1.0f;
+    public float rotationSpeed = 1000f;
 
     // Start is called before the first frame update
     void Start()
@@ -29,7 +30,7 @@ public class MeteoriteController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        transform.Rotate(new Vector3(rotationSpeed, rotationSpeed, rotationSpeed) * Time.deltaTime);
     }
 
     // Detect collisions with the ground

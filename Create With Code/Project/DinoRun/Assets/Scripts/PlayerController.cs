@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     private float speed = 5;
     private float jumpForce = 5; // Force applied for jumping
-    private bool isGroudned = true; // Check if the player is on the ground
+    private bool isGrounded = true; // Check if the player is on the ground
     private Rigidbody playerRb;
 
     // Start is called before the first frame update
@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
         MovePlayer();
 
         // Jumping logic
-        if(Input.GetKeyDown(KeyCode.Space) && isGroudned)
+        if(Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             Jump();
         }
@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour
     void Jump()
     {
         playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse); // Apply jump force
-        isGroudned = false;
+        isGrounded = false;
         Debug.Log("jumping");
     }
 
@@ -65,7 +65,7 @@ public class PlayerController : MonoBehaviour
         // Check if the player is colliding with the ground
         if(collision.gameObject.CompareTag("Ground"))
         {
-            isGroudned = true; 
+            isGrounded = true; 
         }
 
         //Check if its a collission with a mateorite

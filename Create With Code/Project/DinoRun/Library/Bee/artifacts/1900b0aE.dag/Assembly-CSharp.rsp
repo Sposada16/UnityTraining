@@ -352,10 +352,19 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Scripts/CameraFollow.cs"
+"Assets/Scripts/CameraObstructionHandler.cs"
 "Assets/Scripts/MeteoriteController.cs"
 "Assets/Scripts/MoveDown.cs"
+"Assets/Scripts/MoveDownWall.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/SpawnManager.cs"
+"Assets/Unity Asset Store/AurynSky/Gems Ultimate Pack/Scripts/AnimationScript.cs"
+"Assets/Unity Asset Store/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Scripts/BlendShapeTrigger.cs"
+"Assets/Unity Asset Store/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Scripts/BoneheadSoundEffects.cs"
+"Assets/Unity Asset Store/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Scripts/Bonehead_BodyEffects.cs"
+"Assets/Unity Asset Store/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Scripts/StegaSoundEffects.cs"
+"Assets/Unity Asset Store/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Scripts/RaptorSoundEffects.cs"
 -langversion:9.0
 /deterministic
 /optimize+

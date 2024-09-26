@@ -8,11 +8,12 @@ TagManager:
   - Obstacle
   - Live
   - Meteorite
+  - Wall
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - ObstructingObjects
   - Water
   - UI
   - 

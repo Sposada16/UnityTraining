@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class MoveDown : MonoBehaviour
 {
-    public float speed = 5.0f;
+    public float speed = 3.0f;
     private Rigidbody objectRb;
-    public float zDestroy = -3f;
+    public float zDestroy = -10f;
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +23,16 @@ public class MoveDown : MonoBehaviour
         // Destroy the object if it moves past the Z Destroy position
         if (transform.position.z < zDestroy)
         {
-            Destroy(gameObject);
+            if(transform.parent != null)
+            {
+                Destroy(transform.parent.gameObject);
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
+
+            
         }
     }
 }
