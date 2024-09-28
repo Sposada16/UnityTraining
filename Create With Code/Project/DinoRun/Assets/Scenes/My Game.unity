@@ -14,12 +14,12 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  m_FogMode: 3
+  m_Fog: 1
+  m_FogColor: {r: 0.8018868, g: 0.72055626, b: 0.6543699, a: 1}
+  m_FogMode: 1
   m_FogDensity: 0.01
-  m_LinearFogStart: 0
-  m_LinearFogEnd: 300
+  m_LinearFogStart: 15
+  m_LinearFogEnd: 25
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
@@ -5023,13 +5023,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dinoPrefabs:
-  - {fileID: 6943830528191881668, guid: ef84af3174552484b80f17453e230199, type: 3}
-  - {fileID: 218979898241023813, guid: 6a29a60b17f09c44c82bde200a9ff0b0, type: 3}
-  - {fileID: 1924481881730312744, guid: a00430f64d883f443bc49513dd007d12, type: 3}
+  - {fileID: 8712588460480842108, guid: ef84af3174552484b80f17453e230199, type: 3}
+  - {fileID: 3993725477374164668, guid: 6a29a60b17f09c44c82bde200a9ff0b0, type: 3}
+  - {fileID: 5035274350362420113, guid: a00430f64d883f443bc49513dd007d12, type: 3}
   treePrefabs:
-  - {fileID: 2792472304195861856, guid: 7c3193765d24fad49a4950747576b0ee, type: 3}
-  - {fileID: 6390738301705779950, guid: 887800961d3f9414dab3d364425cf239, type: 3}
-  livePrefab: {fileID: 2180105891095430774, guid: 42d86a542fa24a94d969d00004a97d41, type: 3}
+  - {fileID: 153885619120641500, guid: 7c3193765d24fad49a4950747576b0ee, type: 3}
+  - {fileID: 3978284726654428749, guid: 887800961d3f9414dab3d364425cf239, type: 3}
+  livePrefab: {fileID: 8071900088003922758, guid: 42d86a542fa24a94d969d00004a97d41, type: 3}
   meteoritePrefab: {fileID: 1294714178598574584, guid: 67d297735849b0c4ca56eb6e37726b2f, type: 3}
   spawnRangeX: 5
   meteoriteSpawnRangeYmin: 6
@@ -7130,7 +7130,7 @@ MonoBehaviour:
   obstructionLayer:
     serializedVersion: 2
     m_Bits: 8
-  distanceThreshold: 5
+  distanceThreshold: 10
 --- !u!4 &966324801 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2485012309877951479, guid: d1f2198d5253a1e4baf0c100b6c4e65e, type: 3}
@@ -14815,29 +14815,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 15473675024867234, guid: e7d25542eddda9a48a37d383e8d9ebab, type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2495440637700551141, guid: e7d25542eddda9a48a37d383e8d9ebab, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 2495440637700551141, guid: e7d25542eddda9a48a37d383e8d9ebab, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 4755801189728015935, guid: e7d25542eddda9a48a37d383e8d9ebab, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 5bec384a71ced6848b10b6486ea7141f, type: 2}
-    - target: {fileID: 4755801189728015935, guid: e7d25542eddda9a48a37d383e8d9ebab, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5161726779771531304, guid: e7d25542eddda9a48a37d383e8d9ebab, type: 3}
-      propertyPath: m_Constraints
-      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 7246892075533221331, guid: e7d25542eddda9a48a37d383e8d9ebab, type: 3}
       propertyPath: m_LocalPosition.x

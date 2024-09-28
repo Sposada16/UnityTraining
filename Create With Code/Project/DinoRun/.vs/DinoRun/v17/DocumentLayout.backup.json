@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Personal\\UnityTraining\\Create With Code\\Project\\DinoRun\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA6B3452-4FA0-D686-733C-D06AA075B31D}|Assembly-CSharp.csproj|C:\\Personal\\UnityTraining\\Create With Code\\Project\\DinoRun\\assets\\scripts\\repeatwall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA6B3452-4FA0-D686-733C-D06AA075B31D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\repeatwall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA6B3452-4FA0-D686-733C-D06AA075B31D}|Assembly-CSharp.csproj|C:\\Personal\\UnityTraining\\Create With Code\\Project\\DinoRun\\assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA6B3452-4FA0-D686-733C-D06AA075B31D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA6B3452-4FA0-D686-733C-D06AA075B31D}|Assembly-CSharp.csproj|c:\\personal\\unitytraining\\create with code\\project\\dinorun\\assets\\scripts\\movedownwall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA6B3452-4FA0-D686-733C-D06AA075B31D}|Assembly-CSharp.csproj|C:\\Personal\\UnityTraining\\Create With Code\\Project\\DinoRun\\assets\\scripts\\movedownwall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA6B3452-4FA0-D686-733C-D06AA075B31D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movedownwall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,12 +15,8 @@
       "RelativeMoniker": "D:0:0:{CA6B3452-4FA0-D686-733C-D06AA075B31D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movedown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA6B3452-4FA0-D686-733C-D06AA075B31D}|Assembly-CSharp.csproj|c:\\personal\\unitytraining\\create with code\\project\\dinorun\\assets\\scripts\\cameraobstructionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA6B3452-4FA0-D686-733C-D06AA075B31D}|Assembly-CSharp.csproj|C:\\Personal\\UnityTraining\\Create With Code\\Project\\DinoRun\\assets\\scripts\\cameraobstructionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA6B3452-4FA0-D686-733C-D06AA075B31D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameraobstructionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA6B3452-4FA0-D686-733C-D06AA075B31D}|Assembly-CSharp.csproj|C:\\Personal\\UnityTraining\\Create With Code\\Project\\DinoRun\\assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA6B3452-4FA0-D686-733C-D06AA075B31D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA6B3452-4FA0-D686-733C-D06AA075B31D}|Assembly-CSharp.csproj|C:\\Personal\\UnityTraining\\Create With Code\\Project\\DinoRun\\assets\\scripts\\meteoritecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -52,22 +48,9 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\MoveDownWall.cs",
               "ToolTip": "C:\\Personal\\UnityTraining\\Create With Code\\Project\\DinoRun\\Assets\\Scripts\\MoveDownWall.cs",
               "RelativeToolTip": "Assets\\Scripts\\MoveDownWall.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-26T17:35:33Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RepeatWall.cs",
-              "DocumentMoniker": "C:\\Personal\\UnityTraining\\Create With Code\\Project\\DinoRun\\Assets\\Scripts\\RepeatWall.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\RepeatWall.cs",
-              "ToolTip": "C:\\Personal\\UnityTraining\\Create With Code\\Project\\DinoRun\\Assets\\Scripts\\RepeatWall.cs",
-              "RelativeToolTip": "Assets\\Scripts\\RepeatWall.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T17:20:31.092Z",
               "EditorCaption": ""
             },
             {
@@ -80,12 +63,11 @@
               "RelativeToolTip": "Assets\\Scripts\\CameraObstructionHandler.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T16:35:13.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T16:35:13.243Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "CameraFollow.cs",
               "DocumentMoniker": "C:\\Personal\\UnityTraining\\Create With Code\\Project\\DinoRun\\Assets\\Scripts\\CameraFollow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
@@ -97,20 +79,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "SpawnManager.cs",
               "DocumentMoniker": "C:\\Personal\\UnityTraining\\Create With Code\\Project\\DinoRun\\Assets\\Scripts\\SpawnManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnManager.cs",
               "ToolTip": "C:\\Personal\\UnityTraining\\Create With Code\\Project\\DinoRun\\Assets\\Scripts\\SpawnManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\SpawnManager.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAqwHkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T06:55:12.375Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "MeteoriteController.cs",
               "DocumentMoniker": "C:\\Personal\\UnityTraining\\Create With Code\\Project\\DinoRun\\Assets\\Scripts\\MeteoriteController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MeteoriteController.cs",
@@ -118,8 +100,7 @@
               "RelativeToolTip": "Assets\\Scripts\\MeteoriteController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T06:18:08.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T06:18:08.973Z"
             },
             {
               "$type": "Document",
@@ -131,12 +112,11 @@
               "RelativeToolTip": "Assets\\Scripts\\MoveDown.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T05:54:50.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T05:54:50.573Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Personal\\UnityTraining\\Create With Code\\Project\\DinoRun\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",

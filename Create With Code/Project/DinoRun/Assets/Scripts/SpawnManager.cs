@@ -43,7 +43,7 @@ public class SpawnManager : MonoBehaviour
 
             // Spawn a dino with adjusted Y position based on its collider
             Vector3 dinoSpawnPos = new Vector3(randomX, 0, 20);
-            SpawnGroundedObject(dinoPrefab, dinoSpawnPos);
+            Instantiate(dinoPrefab, dinoSpawnPos, dinoPrefab.transform.rotation);
 
             // Delay before spawning the tree to avoid overlap
             yield return new WaitForSeconds(1.0f);
@@ -57,7 +57,7 @@ public class SpawnManager : MonoBehaviour
 
             // Spawn a tree with adjusted Y position based on its collider
             Vector3 treeSpawnPos = new Vector3(randomX, 0, 20);
-            SpawnGroundedObject(treePrefab, treeSpawnPos);
+            Instantiate(treePrefab, treeSpawnPos, treePrefab.transform.rotation);
 
             // Wait for the next spawn cycle
             yield return new WaitForSeconds(dinoAndTreeSpawnInterval - 1.0f); // Subtracting 1 sec since we already waited for the tree
@@ -101,16 +101,11 @@ public class SpawnManager : MonoBehaviour
     // Helper method to spawn objects and adjust their Y position based on their collider
     void SpawnGroundedObject(GameObject prefab, Vector3 spawnPosition)
     {
-        GameObject spawnedObject = Instantiate(prefab, spawnPosition, prefab.transform.rotation);
+        // Set the Y position to be at ground level (you can replace 0f with whatever your ground Y level is)
+        float groundYPosition = 0f; // Adjust this as needed
 
-        // Adjust the Y position to place the bottom of the collider at ground level
-        Collider objectCollider = spawnedObject.GetComponent<Collider>();
-        if (objectCollider != null)
-        {
-            // Get the distance from the center of the object to the bottom of its collider
-            float objectHeight = objectCollider.bounds.extents.y;
-            spawnedObject.transform.position = new Vector3(spawnPosition.x, objectHeight, spawnPosition.z);
-        }
+        // Create the object and place it at the correct Y position
+        GameObject spawnedObject = Instantiate(prefab, new Vector3(spawnPosition.x, groundYPosition, spawnPosition.z), prefab.transform.rotation);
     }
 
     // Update is called once per frame
