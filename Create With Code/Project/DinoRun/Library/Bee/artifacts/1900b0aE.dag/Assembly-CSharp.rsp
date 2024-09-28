@@ -354,6 +354,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/CameraFollow.cs"
 "Assets/Scripts/CameraObstructionHandler.cs"
+"Assets/Scripts/GroundMover.cs"
 "Assets/Scripts/MeteoriteController.cs"
 "Assets/Scripts/MoveDown.cs"
 "Assets/Scripts/MoveDownWall.cs"

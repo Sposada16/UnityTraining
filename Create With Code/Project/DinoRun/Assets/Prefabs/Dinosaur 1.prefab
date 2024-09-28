@@ -1988,7 +1988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae04427acb199e4e9566dfea5cc178d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 5
   zDestroy: -3
 --- !u!64 &609206582752061200
 MeshCollider:

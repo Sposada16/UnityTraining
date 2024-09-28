@@ -69,6 +69,7 @@
     <Compile Include="Assets\Unity Asset Store\FerociousIndustries\PBRDinosaurs\PBRPachycephalasaurus\Scripts\BlendShapeTrigger.cs" />
     <Compile Include="Assets\Scripts\SpawnManager.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\GroundMover.cs" />
     <Compile Include="Assets\Scripts\MeteoriteController.cs" />
     <Compile Include="Assets\Unity Asset Store\AurynSky\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
